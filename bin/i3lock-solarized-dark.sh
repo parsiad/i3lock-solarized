@@ -37,33 +37,33 @@ cyan='#2aa198'
 green='#859900'
 
 i3lock \
-  --insidevercolor=$base02$alpha \
-  --insidewrongcolor=$base02$alpha \
-  --insidecolor=$base02$alpha \
-  --ringvercolor=$green$alpha \
-  --ringwrongcolor=$red$alpha \
-  --ringvercolor=$green$alpha \
-  --ringwrongcolor=$red$alpha \
-  --ringcolor=$blue$alpha \
+  --insidever-color=$base02$alpha \
+  --insidewrong-color=$base02$alpha \
+  --inside-color=$base02$alpha \
+  --ringver-color=$green$alpha \
+  --ringwrong-color=$red$alpha \
+  --ringver-color=$green$alpha \
+  --ringwrong-color=$red$alpha \
+  --ring-color=$blue$alpha \
   --line-uses-ring \
-  --keyhlcolor=$magenta$alpha \
-  --bshlcolor=$orange$alpha \
-  --separatorcolor=$base01$alpha \
-  --verifcolor=$green \
-  --wrongcolor=$red \
-  --layoutcolor=$blue \
-  --datecolor=$blue \
-  --timecolor=$blue \
+  --keyhl-color=$magenta$alpha \
+  --bshl-color=$orange$alpha \
+  --separator-color=$base01$alpha \
+  --verif-color=$green \
+  --wrong-color=$red \
+  --layout-color=$blue \
+  --date-color=$blue \
+  --time-color=$blue \
   --screen 1 \
   --blur 1 \
   --clock \
   --indicator \
-  --timestr="%H:%M:%S" \
-  --datestr="%a %b %e %Y" \
-  --veriftext="Verifying..." \
-  --wrongtext="Auth Failed" \
+  --time-str="%H:%M:%S" \
+  --date-str="%a %b %e %Y" \
+  --verif-text="Verifying..." \
+  --wrong-text="Auth Failed" \
   --noinput="No Input" \
-  --locktext="Locking..." \
+  --lock-text="Locking..." \
   --lockfailed="Lock Failed" \
   --time-font="Helvetica" \
   --date-font="Helvetica" \
